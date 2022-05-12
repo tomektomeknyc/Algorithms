@@ -7,7 +7,9 @@ public class Shell_Sort {
     public static void main(String[] args){
 
         int[] intArray = {20, 35, -15, 7, 55, 1, -22};
-
+int array = intArray.length;
+System.out.print("The array length is: " + array);
+System.out.println("");
         for(int gap = intArray.length/2; gap >0; gap /=2){
 
             for(int i = gap; i < intArray.length; i++){
